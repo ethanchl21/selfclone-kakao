@@ -41,7 +41,6 @@
 .login-form input:focus {
   border-color: var(--yellow);
   outline: none;
-  autocomp
 }
 
 .login-form input:nth-child(3) {

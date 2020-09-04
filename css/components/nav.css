@@ -1,0 +1,32 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--greydark);
+  box-sizing: border-box;
+  padding: 20px 60px;
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar__list__btn__link i {
+  color: var(--white);
+}
+
+.nav-bar__list__btn__link {
+  position: relative;
+}
+.nav-bar__notification-chat {
+  position: absolute;
+  left: 14px;
+  bottom: 11px;
+}
+
+.nav-bar__notification-ellipsis {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

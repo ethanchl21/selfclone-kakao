@@ -1,0 +1,55 @@
+.user-box {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 13px 0px;
+}
+
+.user-box__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-box__column__profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  margin-right: 13px;
+}
+
+.user-box__column__name-large {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.user-box__column__name-medium {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.user-box__column__profile-large {
+  width: 55px;
+  height: 55px;
+  border-radius: 18px;
+}
+
+.user-box__column__melon {
+  font-size: 10px;
+  color: var(--grey2);
+  padding: 5px 8px;
+  border: 1px solid var(--green);
+  border-radius: 11px;
+  align-items: center;
+}
+
+.user-box__column__melon__icon {
+  display: block;
+  padding-left: 4px;
+  color: var(--green);
+}
+
+.user-box__column__number {
+  font-size: 14px;
+  color: var(--grey2);
+}

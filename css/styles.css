@@ -6,6 +6,11 @@
 
 /*Components */
 @import "components/status-bar.css";
+@import "components/header-top.css";
+@import "components/user.css";
+@import "components/friends-category.css";
+@import "components/nav.css";
+@import "components/badge.css";
 
 /*Screens*/
 @import "screens/firstscreen.css";
@@ -16,4 +21,9 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   height: 1000vh;
   margin-top: 10px;
+}
+
+.screens-main {
+  padding: 0px 15px;
+  margin-top: 45px;
 }
