@@ -19,14 +19,3 @@
 .nav-bar__list__btn__link {
   position: relative;
 }
-.nav-bar__notification-chat {
-  position: absolute;
-  left: 14px;
-  bottom: 11px;
-}
-
-.nav-bar__notification-ellipsis {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-}

@@ -7,6 +7,7 @@
 
 .user-box__column {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 }
@@ -26,6 +27,17 @@
 .user-box__column__name-medium {
   font-size: 15px;
   font-weight: 400;
+}
+
+.user-box__column__name-mediumlarge {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-box__column__profile-mediumlarge {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
 }
 
 .user-box__column__profile-large {
@@ -52,4 +64,38 @@
 .user-box__column__number {
   font-size: 14px;
   color: var(--grey2);
+}
+
+/*채팅창 각 채팅방 디자인수정*/
+.user-box__column__chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-box__column__chat-column {
+  margin: 3px 0px;
+}
+
+.user-box__column__chat-column:last-child span {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grey2);
+}
+
+.user-box__column__chat-time {
+  margin-bottom: 35px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.user-box-chat-margin-detail {
+  margin: 22px 0px;
+}
+
+.user-box__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }

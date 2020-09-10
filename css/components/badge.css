@@ -2,7 +2,7 @@
   background-color: var(--red);
   width: 18px;
   height: 18px;
-  border-radius: 9px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,4 +15,23 @@
   width: 4px;
   height: 4px;
   border-radius: 2px;
+}
+
+.nav-bar__notification-chat {
+  position: absolute;
+  left: 14px;
+  bottom: 11px;
+}
+
+.nav-bar__notification-ellipsis {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.badge-number__chat {
+  font-size: 11px;
+  position: absolute;
+  top: 22px;
+  left: 6px;
 }
