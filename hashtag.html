@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>뉴스</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>오전 8:04</span>
+      </div>
+      <div class="status-bar__column">
+        <!--화면잠금 표시-->
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+    <div class="screens-main">
+      <div class="header-top">
+        <div class="header-top__title-hashtag">코로나19</div>
+        <div class="header-top__title-hashtag">
+          <i class="fas fa-hashtag fa-xs"></i>뉴스
+        </div>
+        <div class="header-top__title-hashtag">벡키TV</div>
+        <div class="header-top__title-hashtag">FUN</div>
+
+        <div class="header-top__title-hashtag">보금소식 :)</div>
+      </div>
+      <div class="news-top">
+        <div class="news-top__column">
+          <img
+            class="news-top-column-image"
+            src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGcgZmlsbD0ibm9uZSI+PHBhdGggZD0ibTE3OC4wMjYgMjU3LjkxNGMwIDIxLjY5MiAyLjAzNCA0Mi43MTUgNS45MTkgNjIuMjM3aDU3LjA1NXYtOTMuNjUxaC02MS41MDdjLS45NjcgMTAuMjQ3LTEuNDY3IDIwLjc1Ni0xLjQ2NyAzMS40MTR6Ii8+PHBhdGggZD0ibTIwMy41OTMgMzc4LjY2N2MxMC43MiAyMC44MTEgMjMuODMgMzUuMTE0IDM3LjQwNyA0MS4yOXYtNjkuODA1aC00OS4yMjRjMy4zNjQgMTAuMjA4IDcuMzEyIDE5Ljc3IDExLjgxNyAyOC41MTV6Ii8+PHBhdGggZD0ibTEwMC44NzUgMTk2LjVoNTIuNDkzYzYuNTY4LTM2LjgzOSAxOC45NTYtNjkuNjAyIDM1LjgzMy05My40MTItNDAuNjU1IDE3LjQtNzEuODA4IDQ4Ljc4OC04OC4zMjYgOTMuNDEyeiIvPjxwYXRoIGQ9Im0yNzEgNDE5Ljk1N2MxMy41NzctNi4xNzYgMjYuNjg3LTIwLjQ3OSAzNy40MDctNDEuMjkgNC41MDUtOC43NDUgOC40NTItMTguMzA3IDExLjgxNy0yOC41MTZoLTQ5LjIyNHoiLz48cGF0aCBkPSJtMjcxIDIyNi41djkzLjY1MWg1Ny4wNTVjMy44ODUtMTkuNTIzIDUuOTE5LTQwLjU0NiA1LjkxOS02Mi4yMzcgMC0xMC42NjEtLjQ5OC0yMS4xNy0xLjQ2NC0zMS40MTR6Ii8+PHBhdGggZD0ibTMyMi43MSAxMDIuOTc0YzE2LjkyOCAyMy44MjkgMjkuMzQ5IDU2LjYyIDM1LjkyNiA5My41MjdoNTIuNjY1Yy0xNi41NTQtNDQuNzIzLTQ3LjgwNy03Ni4xNTEtODguNTkxLTkzLjUyN3oiLz48L2c+PGc+PHBhdGggZD0ibTI1My4wNzIgNzYuOTE0Yy05OS43NiAwLTE4MC42MzEgODAuODcxLTE4MC42MzEgMTgwLjYzMXM4MC44NzEgMTgwLjYzMSAxODAuNjMxIDE4MC42MzFjLjk3OSAwIDEuOTUzLS4wMjEgMi45MjgtLjAzN2wzMS4zNzEtMTY4LjY2NC0zMS4zNzEtMTkyLjUyNGMtLjk3NS0uMDE2LTEuOTQ5LS4wMzctMi45MjgtLjAzN3oiIGZpbGw9IiM3OWUxZjUiLz48cGF0aCBkPSJtNDMzLjcwMyAyNTcuNTQ1YzAtOTguNzgxLTc5LjI5NS0xNzkuMDI4LTE3Ny43MDMtMTgwLjU5NHYzNjEuMTg4Yzk4LjQwOC0xLjU2NiAxNzcuNzAzLTgxLjgxMyAxNzcuNzAzLTE4MC41OTR6IiBmaWxsPSIjMzFjM2U3Ii8+PC9nPjxnPjxnIGZpbGw9Im5vbmUiPjxwYXRoIGQ9Im0yNzEgMjI2LjV2OTMuNjUxaDU3LjA1NWMzLjg4NS0xOS41MjMgNS45MTktNDAuNTQ2IDUuOTE5LTYyLjIzNyAwLTEwLjY2MS0uNDk4LTIxLjE3LTEuNDY0LTMxLjQxNHoiLz48cGF0aCBkPSJtMjcxIDQxOS45NTdjMTMuNTc3LTYuMTc2IDI2LjY4Ny0yMC40NzkgMzcuNDA3LTQxLjI5IDQuNTA1LTguNzQ1IDguNDUyLTE4LjMwNyAxMS44MTctMjguNTE2aC00OS4yMjR6Ii8+PHBhdGggZD0ibTIwMy41OTMgMzc4LjY2N2MxMC43MiAyMC44MTEgMjMuODMgMzUuMTE0IDM3LjQwNyA0MS4yOXYtNjkuODA1aC00OS4yMjRjMy4zNjQgMTAuMjA4IDcuMzEyIDE5Ljc3IDExLjgxNyAyOC41MTV6Ii8+PHBhdGggZD0ibTE3OC4wMjYgMjU3LjkxNGMwIDIxLjY5MiAyLjAzNCA0Mi43MTUgNS45MTkgNjIuMjM3aDU3LjA1NXYtOTMuNjUxaC02MS41MDdjLS45NjcgMTAuMjQ3LTEuNDY3IDIwLjc1Ni0xLjQ2NyAzMS40MTR6Ii8+PHBhdGggZD0ibTMyMi43MSAxMDIuOTc0YzE2LjkyOCAyMy44MjkgMjkuMzQ5IDU2LjYyIDM1LjkyNiA5My41MjdoNTIuNjY1Yy0xNi41NTQtNDQuNzIzLTQ3LjgwNy03Ni4xNTEtODguNTkxLTkzLjUyN3oiLz48cGF0aCBkPSJtMTAwLjg3NSAxOTYuNWg1Mi40OTNjNi41NjgtMzYuODM5IDE4Ljk1Ni02OS42MDIgMzUuODMzLTkzLjQxMi00MC42NTUgMTcuNC03MS44MDggNDguNzg4LTg4LjMyNiA5My40MTJ6Ii8+PC9nPjxwYXRoIGQ9Im0yNDEgMTYwLjkyMnYzNS41NzhoLTU3LjE5N2M2LjIxMS0zMS43NTggMTcuMjA0LTU5LjM5OCAzMS44ODMtNzguODA5bC0yMy45MjktMTguMDk2Yy0uNjg4LjkwOS0xLjM2MyAxLjg0NC0yLjAzNyAyLjc4MmwtMTEuNTEzLTI3LjIyYy03My4yMDggMzAuOTY0LTEyMC41MTIgMTAxLjk1LTEyMC41MTIgMTgwLjg0M2wuOTIxIDU4LjIyIDI5LjA3OS0zNy45NDFjMC0xNy44MDcgMS42MjYtMzQuNDA1IDQuNzI1LTQ5Ljc3OGg1Ni45ODVjLS45MDQgMTAuMzA1LTEuMzggMjAuODA0LTEuMzggMzEuNDE0IDAgNTAuNTU0IDEwLjI2MiA5OC4zMTcgMjguODk2IDEzNC40OTEgNS4yMTEgMTAuMTE2IDEwLjk0MyAxOS4wNTMgMTcuMTAxIDI2Ljc2NGwtOC4wNDUgMjAuODY5YzIwLjIwMiA3Ljc4OCA0MS4zOTYgMTIuMTM1IDYzLjEwOCAxMi45NzYgMi4yODkuMjQ1IDQuNTkyLjM4NCA2LjkxMy4zODRsOC4yNTItMjM4LjA4NS04LjI1LTU0LjM5MnptLTg3LjYzMiAzNS41NzhoLTUyLjQ5M2MxNi41MTktNDQuNjI0IDQ3LjY3Mi03Ni4wMTIgODguMzI2LTkzLjQxMi0xNi44NzggMjMuODEtMjkuMjY1IDU2LjU3My0zNS44MzMgOTMuNDEyem04Ny42MzIgMjIzLjQ1N2MtMTMuNTc3LTYuMTc2LTI2LjY4Ny0yMC40NzktMzcuNDA3LTQxLjI5LTQuNTA1LTguNzQ1LTguNDUyLTE4LjMwNy0xMS44MTctMjguNTE2aDQ5LjIyNHptMC05OS44MDZoLTU3LjA1NWMtMy44ODUtMTkuNTIzLTUuOTE5LTQwLjU0Ni01LjkxOS02Mi4yMzcgMC0xMC42NTguNS0yMS4xNjcgMS40NjctMzEuNDE0aDYxLjUwN3oiIGZpbGw9IiMzMWMzZTciLz48cGF0aCBkPSJtMzMzLjk2OSA3NS4xNTctMTEuNTc3IDI3LjM3MmMtLjgxOC0xLjE0Mi0xLjY0My0yLjI3MS0yLjQ4MS0zLjM3MWwtMjMuODU2IDE4LjE4OWMxNC44MTYgMTkuNDMyIDI1LjkwNSA0Ny4xOTkgMzIuMTUxIDc5LjE1MmgtNTcuMjA2di0zNS41NzhoLTE1djI5Mi40NzdjMi4wNiAwIDQuMTA3LS4xMDUgNi4xNDItLjI5OSAyMS44MDctLjU2OSA0My4xMzMtNC42NzIgNjMuNDY3LTEyLjIzNWwtNy45MzItMjEuMzI4YzYuMjcxLTcuNzk0IDEyLjEwNS0xNi44NTMgMTcuNC0yNy4xMzIgMTguNjM0LTM2LjE3NCAyOC44OTYtODMuOTM4IDI4Ljg5Ni0xMzQuNDkxIDAtMTAuNjEzLS40NzUtMjEuMTExLTEuMzc4LTMxLjQxNGg1Ny4xNTljMy4wOTkgMTUuMzczIDQuNzI1IDMxLjk3MSA0LjcyNSA0OS43NzhsMjkuMDc5IDM3Ljk0MS45MjEtNTguMjJjLjAwMi03OC44OTEtNDcuMzAyLTE0OS44NzctMTIwLjUxLTE4MC44NDF6bS0yNS41NjIgMzAzLjUxYy0xMC43MiAyMC44MTEtMjMuODMgMzUuMTE0LTM3LjQwNyA0MS4yOXYtNjkuODA1aDQ5LjIyNGMtMy4zNjQgMTAuMjA4LTcuMzEyIDE5Ljc3LTExLjgxNyAyOC41MTV6bTE5LjY0OC01OC41MTZoLTU3LjA1NXYtOTMuNjUxaDYxLjUxYy45NjYgMTAuMjQ0IDEuNDY0IDIwLjc1MyAxLjQ2NCAzMS40MTQgMCAyMS42OTItMi4wMzQgNDIuNzE1LTUuOTE5IDYyLjIzN3ptMzAuNTgxLTEyMy42NTFjLTYuNTc3LTM2LjkwNi0xOC45OTgtNjkuNjk4LTM1LjkyNi05My41MjcgNDAuNzg1IDE3LjM3NiA3Mi4wMzcgNDguODA1IDg4LjU5MiA5My41Mjd6IiBmaWxsPSIjMTk5ZGUyIi8+PC9nPjxnPjxwYXRoIGQ9Im0yNDUuMDU4IDE2LjU2OGMtMjIuMDktMjIuMDktNTguMDM0LTIyLjA5LTgwLjEyNS4wMDEtMTAuNzAxIDEwLjctMTYuNTk1IDI0LjkyOC0xNi41OTUgNDAuMDYyIDAgMTUuMTMzIDUuODk0IDI5LjM2MSAxNi41OTUgNDAuMDYybDkxLjA2NyA5MS4wNjggMjIuNTE3LTkzLjg4LTIyLjUxNy02Ni4zNzF6IiBmaWxsPSIjZmQ0NDVmIi8+PHBhdGggZD0ibTM0Ny4wNjggMTYuNTY4Yy0yMi4wOTEtMjIuMDkxLTU4LjAzNS0yMi4wODktODAuMTI2IDBsLTEwLjk0MiAxMC45NDJ2MTYwLjI1MWw5MS4wNjgtOTEuMDY4YzEwLjcwMS0xMC43MDEgMTYuNTk1LTI0LjkyOSAxNi41OTUtNDAuMDYzLS4wMDEtMTUuMTMzLTUuODk0LTI5LjM2MS0xNi41OTUtNDAuMDYyeiIgZmlsbD0iI2UxMTA1YSIvPjwvZz48Zz48Zz48cGF0aCBkPSJtNzYuOTI0IDUxMiAxMS4zNzYtNjIuMzE5LTg4LjMtMTMzLjMzNHYtMTk5LjkwN2w0LjQxNS4wOTRjMzMuOTU1LjcyMiA2Mi42NTkgMjguMDM2IDYzLjQ5MiA2Mi4wMDh2MTE3LjUwOGwxMjQuMjE5IDE4Ni4yMjMtNC4zNzggMjkuNzI3eiIgZmlsbD0iI2ZmZGZjZiIvPjxwYXRoIGQ9Im0xOTIuMTI2IDQ4Mi4yNzMgNS40NjktNDMuMjA3YzMuNjY1LTI4Ljk1NC00LjAxMy01OC4yMDctMjEuNDI1LTgxLjYyN2wtNTYuNjg4LTc2LjI0OWMtOS41NDEtMTIuODMzLTI3LjY1My0xNS41MzgtNDAuNTE4LTYuMDUtMTIuNzgzIDkuNDI3LTE1LjYxOCAyNy4zODQtNi4zNjQgNDAuM3oiIGZpbGw9IiNmZmNlYmYiLz48L2c+PGc+PHBhdGggZD0ibTQzNS4wNzYgNTEyLTExLjM3Ni02Mi4zMTkgODguMy0xMzMuMzM0di0xOTkuOTA4bC00LjQxNS4wOTRjLTMzLjk1NS43MjItNjIuNjU5IDI4LjAzNi02My40OTIgNjIuMDA4djExNy41MDlsLTEyNC4yMTkgMTg2LjIyMyA0LjM3OCAyOS43Mjd6IiBmaWxsPSIjZjVhZmFhIi8+PHBhdGggZD0ibTMxOS44NzQgNDgyLjI3My01LjQ2OS00My4yMDdjLTMuNjY1LTI4Ljk1NCA0LjAxMy01OC4yMDcgMjEuNDI1LTgxLjYyN2w1Ni42ODgtNzYuMjQ5YzkuNTQxLTEyLjgzMyAyNy42NTMtMTUuNTM4IDQwLjUxOC02LjA1IDEyLjc4MyA5LjQyNyAxNS42MTggMjcuMzg0IDYuMzY0IDQwLjN6IiBmaWxsPSIjZmZjZWJmIi8+PC9nPjwvZz48L2c+PC9zdmc+"
+          />
+        </div>
+        <div class="news-top__column">
+          <div class="news-top__category"><span class="news-top__category-title">
+            코로나19 종결, 이제 어디로든 산책이 가능하게 돼...
+        </div>  
+        </span>
+          <div class="news-top__category">
+            <div class="news-top__category-inside"> <span class="news-top__category-text"
+              >실시간 뉴스
+              <i class="gd-color fas fa-chevron-right fa-sm"></i>
+            </span>
+            </div>
+            <div class="news-top__category-inside">
+            <span class="news-top__category-text"
+              >거리두기 정책
+              <i class="gd-color fas fa-chevron-right fa-sm"></i>
+            </span>
+            </div>
+            <div class="news-top__category-inside">
+            <span class="news-top__category-text"
+              >백신보급현황
+              <i class="gd-color fas fa-chevron-right fa-sm"></i>
+            </span>
+            </div>
+          </div>
+        </div>
+    </div>
+        <div class="news-main__block">
+            <div class="news-main__content">
+                <span class="news-main__content-text">
+                    미국 대선의 결과는?.. "바이든 3% 우세"
+                </span>
+            </div>
+            <div class="news-main__content">
+                <span class="news-main__content-text">
+                    코로나19 사태 그 끝은 바로 지금.. "밝은 날의 시작"
+                </span>
+            </div>
+            <div class="news-main__content">
+                <span class="news-main__content-text">
+                지역상권 활성화 시작.. "그러나 갈 길은 멀어", "소비와 투자를 다시금 늘릴 때"   
+                </span>
+            </div>
+            <div class="news-main__content">
+                <span class="news-main__content-text">
+                    테슬라 주식 다시 한번 폭등, "서학개미의 활동 본격 재개"
+                </span>
+            </div>
+            <div class="news-main__content">
+                <span class="news-main__content-text">
+                    떠오르는 앱 '벡키', 시장에 찾아온 새로운 경쟁자를 맞이한 시장
+                </span>
+            </div>
+            <div class="news-main__content  news-main__content-photo">
+                <div class="news-main__content-photorelated">
+                    <img src="https://image.chosun.com/sitedata/image/201604/27/2016042700443_0.jpg" />
+                    <span>
+                        허벅지 근력운동, 관절염과 치매 예방 '일석 이조'
+                    </span>
+                    
+                </div>
+                <div class="news-main__content-photorelated">
+                    <img src="https://www1.president.go.kr/storage/images/2019/12/f99518ab4a16a0ca959c329052d77932.jpg" />
+                    <span class="news-main__content-photorelated-text">
+                        靑 "대통령 측근이라서 거액 자문료를 지급? 사실 아냐"
+                    </span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="news-main__block">
+            <span class="news-main__block-second__type">NEW</span>
+            <span class="news-main__block-second__text">벡키 코디추천기능 안내</span>
+        </div>
+        <div class="news-main__block">
+
+        </div>
+    </div>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <li class="nav-bar__list__btn">
+          <a class="nav-bar__list__btn__link" href="friends.html">
+            <i class="far fa-user fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-bar__list__btn">
+          <a class="nav-bar__list__btn__link" href="mainchat.html">
+            <span class="badge-number-basic nav-bar__notification-chat"
+              >17</span
+            >
+            <i class="far fa-comment fa-lg"> </i>
+          </a>
+        </li>
+        <li class="nav-bar__list__btn">
+          <a class="nav-bar__list__btn__link" href="hashtag.html">
+            <i class="fas fa-hashtag fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-bar__list__btn">
+          <a class="nav-bar__list__btn__link" href="#">
+            <div class="badge-dot-basic nav-bar__notification-ellipsis"></div>
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

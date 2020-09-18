@@ -17,6 +17,7 @@
 @import "screens/firstscreen.css";
 @import "screens/screen-mainchat.css";
 @import "screens/mainchatscreen.css";
+@import "screens/hashtagscreen.css";
 
 body {
   background-color: var(--black);
